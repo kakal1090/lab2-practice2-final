@@ -1,0 +1,8 @@
+{
+  "total": 11181642,
+  "trainable": 5130,
+  "trainable_names": [
+    "fc.weight",
+    "fc.bias"
+  ]
+}

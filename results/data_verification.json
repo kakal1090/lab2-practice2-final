@@ -1,0 +1,6 @@
+{
+  "source": "https://cave.cs.toronto.edu/kriz/cifar-10-python.tar.gz",
+  "bytes": 170498071,
+  "md5": "c58f30108f718f92721af3b95e74349a",
+  "matches_torchvision": true
+}

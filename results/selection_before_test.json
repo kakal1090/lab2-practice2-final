@@ -1,0 +1,52 @@
+{
+  "criterion": "highest validation accuracy; first in predefined order breaks ties",
+  "winner": "resnet_finetune",
+  "evaluate_final_models": [
+    "resnet_baseline",
+    "densenet_baseline",
+    "resnet_finetune"
+  ],
+  "candidates": [
+    {
+      "name": "resnet_baseline",
+      "best_val_accuracy": 0.8424,
+      "best_epoch": 4,
+      "optimization_seconds": 3.5221804410002733,
+      "feature_extraction_seconds": 133.51712144499925,
+      "trainable_parameters": 5130
+    },
+    {
+      "name": "densenet_baseline",
+      "best_val_accuracy": 0.8594,
+      "best_epoch": 3,
+      "optimization_seconds": 3.786734078000336,
+      "feature_extraction_seconds": 374.7281834100004,
+      "trainable_parameters": 10250
+    },
+    {
+      "name": "resnet_lr_01",
+      "best_val_accuracy": 0.8068,
+      "best_epoch": 3,
+      "optimization_seconds": 3.865941816000486,
+      "feature_extraction_seconds": 133.51712144499925,
+      "trainable_parameters": 5130
+    },
+    {
+      "name": "resnet_batch64",
+      "best_val_accuracy": 0.8364,
+      "best_epoch": 5,
+      "optimization_seconds": 2.699231778000467,
+      "feature_extraction_seconds": 133.51712144499925,
+      "trainable_parameters": 5130
+    },
+    {
+      "name": "resnet_finetune",
+      "best_val_accuracy": 0.9106,
+      "best_epoch": 4,
+      "optimization_seconds": 849.2058321899995,
+      "feature_extraction_seconds": 0.0,
+      "trainable_parameters": 8398858
+    }
+  ],
+  "selected_at_unix": 1793298882.7440262
+}

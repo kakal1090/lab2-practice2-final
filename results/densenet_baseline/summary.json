@@ -1,0 +1,8 @@
+{
+  "name": "densenet_baseline",
+  "best_val_accuracy": 0.8594,
+  "best_epoch": 3,
+  "optimization_seconds": 3.786734078000336,
+  "feature_extraction_seconds": 374.7281834100004,
+  "trainable_parameters": 10250
+}

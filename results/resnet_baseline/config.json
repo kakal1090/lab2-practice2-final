@@ -1,0 +1,15 @@
+{
+  "name": "resnet_baseline",
+  "model": "resnet18",
+  "mode": "head",
+  "lr": 0.001,
+  "batch_size": 32,
+  "epochs": 5,
+  "seed": 42,
+  "image_size": 96,
+  "optimizer": "SGD",
+  "momentum": 0.9,
+  "weight_decay": 0.0,
+  "pretrained": "IMAGENET1K_V1",
+  "cache_features": true
+}

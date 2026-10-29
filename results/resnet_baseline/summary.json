@@ -1,0 +1,8 @@
+{
+  "name": "resnet_baseline",
+  "best_val_accuracy": 0.8424,
+  "best_epoch": 4,
+  "optimization_seconds": 3.5221804410002733,
+  "feature_extraction_seconds": 133.51712144499925,
+  "trainable_parameters": 5130
+}
