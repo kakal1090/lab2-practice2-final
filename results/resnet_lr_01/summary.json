@@ -1,0 +1,8 @@
+{
+  "name": "resnet_lr_01",
+  "best_val_accuracy": 0.8068,
+  "best_epoch": 3,
+  "optimization_seconds": 3.865941816000486,
+  "feature_extraction_seconds": 133.51712144499925,
+  "trainable_parameters": 5130
+}

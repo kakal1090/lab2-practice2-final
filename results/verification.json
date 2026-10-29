@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "real_experiments": 5,
+  "epochs_per_experiment": 5,
+  "train_samples": 45000,
+  "val_samples": 5000,
+  "test_samples_per_evaluated_model": 10000,
+  "checks": [
+    "split disjoint",
+    "finite history",
+    "best checkpoint by validation",
+    "TensorBoard matches CSV",
+    "confusion matrices match test accuracy",
+    "predictions count",
+    "selection by validation",
+    "executed source hash"
+  ]
+}

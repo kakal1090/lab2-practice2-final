@@ -1,0 +1,17 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "torch": "2.15.0+cpu",
+    "torchvision": "0.29.2+cpu",
+    "tensorboard": "2.21.0",
+    "numpy": "2.3.5",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "Markdown": "3.11.2",
+    "beautifulsoup4": "4.15.0",
+    "reportlab": "4.4.9"
+  },
+  "workers": 0,
+  "threads": 4,
+  "actual_training_command": "OMP_NUM_THREADS=4 MKL_NUM_THREADS=4 python -u -m src.experiment --image-size 96 --epochs 5 --threads 4 --workers 0"
+}

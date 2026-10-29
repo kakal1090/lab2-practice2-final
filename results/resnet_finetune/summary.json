@@ -1,0 +1,8 @@
+{
+  "name": "resnet_finetune",
+  "best_val_accuracy": 0.9106,
+  "best_epoch": 4,
+  "optimization_seconds": 849.2058321899995,
+  "feature_extraction_seconds": 0.0,
+  "trainable_parameters": 8398858
+}

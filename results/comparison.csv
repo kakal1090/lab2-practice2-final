@@ -1,0 +1,6 @@
+Run,Model,Mode,LR,Batch,Trainable,Best epoch,Train acc (%),Val acc (%),Val loss,Test acc (%),Optimization seconds,Feature extraction seconds
+resnet_baseline,resnet18,head,0.001,32,5130,4,84.1111,84.24,0.474054,82.88,3.52,133.52
+densenet_baseline,densenet121,head,0.001,32,10250,3,86.4778,85.94,0.412339,84.61,3.79,374.73
+resnet_lr_01,resnet18,head,0.01,32,5130,3,79.1244,80.68,1.252008,,3.87,133.52
+resnet_batch64,resnet18,head,0.001,64,5130,5,84.32,83.64,0.490831,,2.7,133.52
+resnet_finetune,resnet18,finetune,0.001,32,8398858,4,97.2333,91.06,0.295254,90.05,849.21,0.0

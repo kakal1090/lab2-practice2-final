@@ -1,0 +1,11 @@
+{
+  "python": "3.12.14",
+  "torch": "2.15.0+cpu",
+  "torchvision": "0.29.2+cpu",
+  "device": "cpu",
+  "gpu": null,
+  "cpu_threads": 4,
+  "image_size": 96,
+  "epochs": 5,
+  "source_sha256": "57918eed8e84b355d019d4d723b3b21c1545ad234f2a591801bc36510dd6fc32"
+}

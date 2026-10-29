@@ -1,0 +1,8 @@
+{
+  "total": 6964106,
+  "trainable": 10250,
+  "trainable_names": [
+    "classifier.weight",
+    "classifier.bias"
+  ]
+}

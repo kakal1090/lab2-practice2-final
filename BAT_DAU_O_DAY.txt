@@ -1,0 +1,14 @@
+PRACTICE 2 - BÀI HOÀN CHỈNH
+
+1. Mở report/BAO_CAO_PRACTICE_2.pdf để đọc bài ngay.
+2. Mở report/HUONG_DAN_DOC_VA_NOP.md để xem phân công, cách nộp và đưa vào GitHub.
+3. Notebook PRACTICE_2_HOAN_CHINH.ipynb mở bằng Google Colab. Upload ZIP hoàn chỉnh khi ô đầu yêu cầu. Không cần train lại để xem kết quả.
+4. Điền tên/MSSV/lớp/giảng viên vào báo cáo theo mẫu của lớp.
+
+ĐÃ CHẠY THẬT: 5 cấu hình, mỗi cấu hình 5 epoch, full CIFAR-10.
+ResNet baseline test: 82,88%. DenseNet baseline: 84,61%.
+Cấu hình thắng validation: ResNet fine-tuning, test 90,05%.
+
+Điều kiện: ảnh 96×96, CPU, seed 42; không trộn với kết quả 224×224 cũ của nhóm.
+ZIP kèm dataset đã kiểm tra checksum, checkpoint thắng và toàn bộ số liệu/event logs.
+Không push dataset hoặc checkpoint lên GitHub. Đọc hướng dẫn trước khi tạo PR.

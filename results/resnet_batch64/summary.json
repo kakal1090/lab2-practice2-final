@@ -1,0 +1,8 @@
+{
+  "name": "resnet_batch64",
+  "best_val_accuracy": 0.8364,
+  "best_epoch": 5,
+  "optimization_seconds": 2.699231778000467,
+  "feature_extraction_seconds": 133.51712144499925,
+  "trainable_parameters": 5130
+}
