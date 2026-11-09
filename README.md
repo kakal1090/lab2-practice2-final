@@ -1,6 +1,18 @@
+# Lab 2 với cấu trúc tài liệu docs
+
+Bắt đầu tại [docs/README.md](docs/README.md). Thông tin nhóm: [docs/labs2-description.md](docs/labs2-description.md). Tiến độ: [docs/plan-progress.status.md](docs/plan-progress.status.md). Cách demo: [docs/demo.md](docs/demo.md). Cách cập nhật repo: [HUONG_DAN_PUSH_GITHUB.md](HUONG_DAN_PUSH_GITHUB.md).
+
+## Mở để thuyết trình
+
+Trình bày chính bằng report/BAO_CAO_PRACTICE_2.html; demo bằng PRACTICE_2_HOAN_CHINH.ipynb phần 1–4; PDF làm dự phòng. Notebook giữ nguyên cách clone GitHub, không yêu cầu upload ZIP.
+
+## Phạm vi gói
+
+Có code, docs, notebook, báo cáo, metrics và TensorBoard logs; không có dataset, cache hoặc checkpoint .pt. Thay đổi lần này là tài liệu, không train mới hoặc cập nhật repo tự động. Các thông tin nhóm trong báo cáo vẫn chờ điền.
+
 > BẢN DÀNH CHO GITHUB: giữ code, notebook, báo cáo, metrics và TensorBoard logs nhỏ. Không kèm dataset/checkpoint. Bộ thực nghiệm 96×96 này nằm riêng, không ghi đè bài 224×224 trước đó.
 >
-> Muốn mở notebook theo chế độ xem kết quả, dùng ZIP đầy đủ đã nhận. Muốn tái lập bằng code từ GitHub, chạy trong bản sao/thư mục kết quả sạch theo hướng dẫn dưới đây. Dataset tải bằng `src.download_data`; các checkpoint sẽ được tạo khi train.
+> Notebook hiện tại đọc kết quả từ GitHub; không cần dataset/checkpoint để xem phần 1–4. Muốn tái lập bằng code từ GitHub, chạy trong bản sao/thư mục kết quả sạch theo hướng dẫn dưới đây. Dataset tải bằng `src.download_data`; các checkpoint sẽ được tạo khi train.
 
 # Practice 2 — Bài hoàn chỉnh về pretrained neural networks
 
@@ -67,9 +79,3 @@ Xem `report/VALIDATION.md` để biết kiểm tra và lượt thực nghiệm �
 ## Nộp nhóm
 
 Đọc và hiểu báo cáo, bổ sung tên/MSSV nếu cần. Mỗi người trình bày phần mình: dữ liệu/ResNet, DenseNet/so sánh, tuning/fine-tuning. Giữ nguyên nguồn số liệu, không điền kết quả cho thí nghiệm chưa chạy. Tạo nhánh mới/PR để review, không ghi đè kết quả cũ của nhóm.
-
-## Phân biệt hai gói bài
-
-Gói GitHub này không có dataset/checkpoint. Bản ZIP đầy đủ đã cung cấp riêng kèm `data/cifar-10-python.tar.gz` từ nguồn CIFAR chính thức, đã đối chiếu MD5. Đây là lý do gói tải tương đối lớn; Colab có thể dùng lại file này và không tải từ máy chủ chậm. Không commit dataset lên GitHub. Gói giữ checkpoint tốt nhất của cấu hình thắng validation; checkpoint các lượt còn lại được loại để giảm dung lượng, nhưng giữ nguyên toàn bộ metrics, predictions, kiến trúc, config và event logs. Chạy lại code sẽ tạo đủ checkpoint mới.
-
-Bắt đầu theo `report/HUONG_DAN_DOC_VA_NOP.md`. Báo cáo mô tả môi trường chạy thật là CPU; notebook là công cụ đọc/tái lập, không khẳng định kết quả đã train trên Colab.

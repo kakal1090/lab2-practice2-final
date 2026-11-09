@@ -12,7 +12,7 @@
 ## Dữ liệu
 
 - Archive CIFAR-10 chính thức, 170.498.071 bytes, MD5 `c58f30108f718f92721af3b95e74349a`, khớp torchvision.
-- `data_verification.json` lưu kiểm tra. Archive đầy đủ kèm trong ZIP; dữ liệu đã giải nén và cache feature không kèm để giảm dung lượng.
+- `data_verification.json` lưu kiểm tra. Gói GitHub hiện tại không kèm archive, dữ liệu giải nén, cache hoặc checkpoint. Hồ sơ xác minh được giữ từ lần chạy gốc.
 - Unit test kiểm tra split tái lập, không giao nhau, đúng 500 validation/lớp.
 
 ## Kiểm tra code
